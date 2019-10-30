@@ -1,0 +1,14 @@
+package com.primitivetypecasting;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			char c='a';
+			int x=c;
+			System.out.println(x);
+			System.out.println(c);
+			System.out.println(c+1);
+	}
+
+}

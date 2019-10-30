@@ -1,0 +1,15 @@
+package com.primitivetypecasting;
+
+class Demo5 {
+
+	public static void main(String[] args) {
+		int a[]= {10,20,30,40};
+		//Accessing each element and displaying
+		for(int index=0;index<a.length;index++)
+		{
+			System.out.println(a[index]);
+		}
+		
+	}
+
+}

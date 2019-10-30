@@ -1,0 +1,18 @@
+package com.primitivetypecasting;
+
+public class Demo3 
+{
+	public static void print(int x)
+	{
+		System.out.println(x);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		print(10);
+		print((int)10.9);// 0.9 is data loss
+		print('a');
+
+	}
+
+}
