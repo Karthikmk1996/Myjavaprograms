@@ -27,8 +27,8 @@ public class Actitime
 	System.out.println(tittle);
 	
 	if(username==pwd)
-		System.out.println("Login is successfull");
-	else
 		System.out.println("Login is unsuccessfull");
+	else
+		System.out.println("Login is successfull");
 	}
 }
