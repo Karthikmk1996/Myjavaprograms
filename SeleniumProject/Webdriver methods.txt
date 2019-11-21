@@ -1,0 +1,13 @@
+Method                       ReturnType		Purpose
+
+get()		      void                        *get() method is used to navigate particular URL(website) & wait till page load.
+getCurrentUrl()                String                      *getCurrentUrl() method fetches the string representing the Current URL which is opened in the browser.
+getTitle()                          String	                   *getTitle() method will capture current opened page and then it will be stored in var and then it will printed in console.
+getWindowHandle()         String	                    *getWindowHandle() method will get the handle of the page of the webDriveris currently controlling.
+getWindowHandles()        Set<String>              *getWindowHandles() method will give all the handles for all the pages that the webDriver understands are open.it is used to handle multiple windows.
+getPageSource	      String	                    *this method is used to get the Page source of currently opened  web page.
+navigate()                         Navigation	   *this method is used to navigate to particular URL and does not wait to page load.	
+manage()                         Options	                      *manage() returns the instance of options internface.
+close()                              void		     *close() method is a webDriver command which closes the browser window which is currently in focus.
+quit()                                void		     *quit()  method is a webDriver command which calls the driver.dispose method,which inturns close all the browser windows and terminates the WebDriver session.
+maximize()                       void	      	      *to maximize a browser window we need to call the maximize() method of the Window interface of the driver class.
